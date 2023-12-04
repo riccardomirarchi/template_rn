@@ -26,7 +26,7 @@ This is a new [**React Native**](https://reactnative.dev) boilerplate, bootstrap
 To create a new project using this boilerplate simply run:
 
 ```bash
-npx react-native@latest init MyApp --template this_repo_url
+npx react-native@latest init your_app_name --template this_repo_url
 ```
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
