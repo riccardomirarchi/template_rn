@@ -14,6 +14,5 @@
     "react",
     "native",
     "react-native"
-  ],
-  "main": "post-init.script.js"
+  ]
 }
