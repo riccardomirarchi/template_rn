@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: "boilerplate",
+  placeholderName: "RtkQuery",
   templateDir: "./template",
 };
