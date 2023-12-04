@@ -1,4 +1,6 @@
 module.exports = {
-  placeholderName: "RtkQuery",
+  placeholderName: "RNBoilerplate",
+  titlePlaceholder: "React Native Boilerplate",
   templateDir: "./template",
+  postInitScript: "./post-init.script.js",
 };

@@ -31,7 +31,6 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
-
 # using Yarn
 yarn start
 ```
@@ -43,7 +42,6 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 ### For Android
 
 ```bash
-
 # using Yarn
 yarn android
 ```
@@ -51,7 +49,6 @@ yarn android
 ### For iOS
 
 ```bash
-
 # using Yarn
 yarn ios
 ```
@@ -75,13 +72,12 @@ You've successfully run and modified your React Native App. :partying_face:
 
 # Assets installation
 
-make sure to run:
+Whether you add additional fonts to the project, make sure to run the following command to manually link assets:
 
 ```bash
-npx react-native-assets
+npx react-native-asset
 ```
 
-to manually link custom assets to project
 
 ## Contributors ✨
 

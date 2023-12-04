@@ -75,9 +75,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.rtkquery"
+    namespace "com.rnboilerplate"
     defaultConfig {
-        applicationId "com.rtkquery"
+        applicationId "com.rnboilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

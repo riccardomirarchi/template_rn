@@ -1,13 +1,19 @@
 {
-  "name": "RtkQuery",
+  "name": "rn-template",
   "version": "1.0.0",
-  "description": "React Native simple boilerplate",
+  "description": "React Native simple template",
   "files": [
     "template",
     "template.config.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riccardomirarchi/template_rn.git"
-  }
+    "url": "https://github.com/riccardomirarchi/template_rn.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native"
+  ],
+  "main": "post-init.script.js"
 }
