@@ -1,0 +1,3 @@
+node_modules/
+customTransformer.js
+metro.config.js

@@ -1,0 +1,15 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
+.container {
+  margin: 16px;
+  border: 1px solid $color-blue;
+  padding: 16px;
+  &_text {
+    font-size: 36px;
+    font-family: $DMSans-Bold;
+    &__green {
+      color: $color-green-dark;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+$color-black: #1a1c1f;
+$color-black-2: #171717;
+$color-white: #ffffff;
+$color-blue: #006eef;
+$color-blue-dark: #043465;
+$color-blue-istituzionale: #0066cc;
+$color-blue-light: #0d99ff;
+$color-blue-disabled: #c2dafc;
+$color-green: #098361;
+$color-green-pale: #ebffed;
+$color-green-light: #14c896;
+$color-green-dark: #047e04;
+$color-violet: #904ce6;
+$color-violet-light: #b58ee8;
+$color-violet-dark: #3a386f;
+$color-brown: #bf4a24;
+$color-brown-light: #da7453;
+$color-brown-dark: #b33f19;
+$color-grey-outline: #777777;
+$color-grey-light: #f1f2f5;
+$color-grey-dark: #767676;
+$color-grey-4: #232528;
+$color-grey-8: #2c2e31;
+$color-grey-16: #3f4043;
+$color-grey-72: #bfc0c1;
+$color-grey-disable: #6c6e6f;
+$color-grey-dark-liferay: #6d6d6d;
+$color-red-error: #f43c3c;
+$color-red-error-2: #e22929;
+$color-red-error-3: #d30000;
+$color-red-light: #ffefef;
+$color-red-error-on-light: #e22929;
+$color-mauve: #e4e3ff;
+$color-yellow-pale: #faeec5;
+
+$color-ambito-1: #bf93f5;
+$color-ambito-2: #24bf93;
+$color-ambito-3: #f5925b;
+$color-ambito-4: #e3bd5c;
+$color-ambito-5: #ff6a6a;
+$color-ambito-6: #ff83b0;
+$color-ambito-7: #5dc6dd;
+$color-ambito-8: #a1badf;
+$color-ambito-9: #97a2ff;
+$color-ambito-10: #9ad84c;
+$color-ambito-11: #fc9bad;
+$color-ambito-12: #dff0e8;
+
+$color-footer: #004080;
+$color-footer-light: #003569;
+
+$colors: (
+  color-black: $color-black,
+  color-white: $color-white,
+  color-blue: $color-blue,
+  color-blue-istituzionale: $color-blue-istituzionale,
+  color-blue-light: $color-blue-light,
+  color-blue-disabled: $color-blue-disabled,
+  color-green: $color-green,
+  color-green-pale: $color-green-pale,
+  color-green-light: $color-green-light,
+  color-green-dark: $color-green-dark,
+  color-violet: $color-violet,
+  color-violet-light: $color-violet-light,
+  color-violet-dark: $color-violet-dark,
+  color-brown: $color-brown,
+  color-brown-light: $color-brown-light,
+  color-brown-dark: $color-brown-dark,
+  color-grey-outline: $color-grey-outline,
+  color-grey-light: $color-grey-light,
+  color-grey-dark: $color-grey-dark,
+  color-grey-4: $color-grey-4,
+  color-grey-8: $color-grey-8,
+  color-grey-16: $color-grey-16,
+  color-grey-72: $color-grey-72,
+  color-red-error: $color-red-error,
+  color-red-error-2: $color-red-error-2,
+  color-red-error-3: $color-red-error-3,
+  color-grey-disable: $color-grey-disable,
+  color-red-light: $color-red-light,
+  color-red-error-on-light: $color-red-error-on-light,
+  color-mauve: $color-mauve,
+  color-yellow-pale: $color-yellow-pale,
+  color-ambito-1: $color-ambito-1,
+  color-ambito-2: $color-ambito-2,
+  color-ambito-3: $color-ambito-3,
+  color-ambito-4: $color-ambito-4,
+  color-ambito-5: $color-ambito-5,
+  color-ambito-6: $color-ambito-6,
+  color-ambito-7: $color-ambito-7,
+  color-ambito-8: $color-ambito-8,
+  color-ambito-9: $color-ambito-9,
+  color-ambito-10: $color-ambito-10,
+  color-ambito-11: $color-ambito-11,
+  color-ambito-12: $color-ambito-12,
+  color-grey-dark-liferay: $color-grey-dark-liferay,
+);
+
+:export {
+  @each $colorName, $color in $colors {
+    #{$colorName}: $color;
+  }
+}
