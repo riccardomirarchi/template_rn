@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "RtkQuery",
   "version": "1.0.0",
   "description": "React Native simple boilerplate",
   "files": [
@@ -8,6 +8,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/riccardomirarchi/template_rn.git"
+    "url": "git+https://github.com/riccardomirarchi/template_rn.git"
   }
 }
